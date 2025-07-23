@@ -82,6 +82,8 @@ def compute_hourly_stats(df_features, df_requests, df_acceptance, df_completion)
     base_date = (df_requests_sorted['request_time'].iloc[0].floor('D')
                  if 'request_time' in df_requests.columns and not df_requests['request_time'].isna().all()
                  else pd.to_datetime('2025-01-01'))
+    
+    print(f"Base date for statistics: {base_date}")
 
     for _, row in df_features.iterrows():
         ride_id = row['ride_id']
