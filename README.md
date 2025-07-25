@@ -1,4 +1,4 @@
-## LinearRegressionPricing
+## PricingLinearRegression
 
 A machine learning project to derive coefficients for a dynamic pricing algorithm using regression models, leveraging surge-based ride data to reflect real-world demand patterns.
 
