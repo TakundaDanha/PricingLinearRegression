@@ -1,0 +1,164 @@
+2025-07-28 14:48:18,635 INFO: Starting Flask application...
+2025-07-28 14:48:18,701 INFO: DB_HOST: 192.168.1.132, DB_PORT: 1433, DB_NAME: Vaye_Analytics_DB, DB_USER: Tkd
+2025-07-28 14:48:18,768 INFO: Database engine created successfully.
+2025-07-28 14:48:20,945 INFO: \u2705 Successfully loaded pricing model.
+2025-07-28 14:48:20,998 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.139:5001
+2025-07-28 14:48:20,998 INFO: [33mPress CTRL+C to quit[0m
+2025-07-28 14:48:21,042 INFO:  * Restarting with watchdog (windowsapi)
+2025-07-28 14:48:22,460 INFO: Starting Flask application...
+2025-07-28 14:48:22,488 INFO: DB_HOST: 192.168.1.132, DB_PORT: 1433, DB_NAME: Vaye_Analytics_DB, DB_USER: Tkd
+2025-07-28 14:48:22,522 INFO: Database engine created successfully.
+2025-07-28 14:48:24,152 INFO: \u2705 Successfully loaded pricing model.
+2025-07-28 14:48:24,170 WARNING:  * Debugger is active!
+2025-07-28 14:48:24,182 INFO:  * Debugger PIN: 299-033-408
+2025-07-28 14:49:30,171 INFO: Processing request: {'distance_km': 9.128730941020164, 'current_accept_time': 11, 'matched_at': '2025-07-28T12:48:58.987Z'}
+2025-07-28 14:49:30,171 INFO: Fetching stats for hour_start=2025-07-28 14:00:00, hour_end=2025-07-28 15:00:00
+2025-07-28 14:49:30,344 INFO: hourly_requests: {'request_count': {0: 57}}
+2025-07-28 14:49:30,360 INFO: hourly_acceptance: {'avg_accept_time': {0: 201.686274}, 'std_accept_time': {0: 106.37020075116497}}
+2025-07-28 14:49:30,374 INFO: hourly_completion: {'avg_ride_duration': {0: 1285.313725}}
+2025-07-28 14:49:30,423 INFO: overall_requests: {'request_count': {0: 25413}}
+2025-07-28 14:49:30,423 INFO: overall_acceptance: {'avg_accept_time': {0: 235.227021}, 'std_accept_time': {0: 126.4657944964373}}
+2025-07-28 14:49:30,423 INFO: overall_completion: {'avg_ride_duration': {0: 1494.428297}}
+2025-07-28 14:49:30,437 INFO: Returning stats: {'request_count': {0: 57}, 'avg_accept_time': {0: 201.686274}, 'std_accept_time': {0: 106.37020075116497}, 'avg_ride_duration': {0: 1285.313725}}
+2025-07-28 14:49:30,447 INFO: Features for prediction: {'distance_km': {0: 9.128730941020164}, 'current_accept_time': {0: 11}, 'request_count': {0: 57}, 'avg_accept_time': {0: 201.686274}, 'avg_ride_duration': {0: 1285.313725}, 'z_request_count': {0: nan}, 'z_accept_time': {0: -1.7926662980177894}}
+2025-07-28 14:49:30,453 INFO: Predicted price: 63.69
+2025-07-28 14:49:30,453 INFO: 127.0.0.1 - - [28/Jul/2025 14:49:30] "POST /predict_price HTTP/1.1" 200 -
+2025-07-28 14:51:40,385 INFO:  * Detected change in 'c:\\Users\\Administrator\\Desktop\\LinearRegression\\app.py', reloading
+2025-07-28 14:51:40,385 INFO:  * Detected change in 'c:\\Users\\Administrator\\Desktop\\LinearRegression\\app.py', reloading
+2025-07-28 14:51:40,395 INFO:  * Detected change in 'c:\\Users\\Administrator\\Desktop\\LinearRegression\\app.py', reloading
+2025-07-28 14:51:44,356 INFO: Starting Flask application...
+2025-07-28 14:51:44,387 INFO: DB_HOST: 192.168.1.132, DB_PORT: 1433, DB_NAME: Vaye_Analytics_DB, DB_USER: Tkd
+2025-07-28 14:51:44,425 INFO: Database engine created successfully.
+2025-07-28 14:51:45,919 INFO: \u2705 Successfully loaded pricing model.
+2025-07-28 14:51:45,962 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.139:5001
+2025-07-28 14:51:45,962 INFO: [33mPress CTRL+C to quit[0m
+2025-07-28 14:51:45,976 INFO:  * Restarting with watchdog (windowsapi)
+2025-07-28 14:51:48,129 INFO: Starting Flask application...
+2025-07-28 14:51:48,151 INFO: DB_HOST: 192.168.1.132, DB_PORT: 1433, DB_NAME: Vaye_Analytics_DB, DB_USER: Tkd
+2025-07-28 14:51:48,180 INFO: Database engine created successfully.
+2025-07-28 14:51:49,714 INFO: \u2705 Successfully loaded pricing model.
+2025-07-28 14:51:49,732 WARNING:  * Debugger is active!
+2025-07-28 14:51:49,736 INFO:  * Debugger PIN: 299-033-408
+2025-07-28 14:52:54,841 INFO: Processing request: {'distance_km': 9.128730941020164, 'current_accept_time': 11, 'matched_at': '2025-07-28T12:52:23.690Z'}
+2025-07-28 14:52:54,841 INFO: Fetching stats for hour_start=2025-07-28 14:00:00, hour_end=2025-07-28 15:00:00
+2025-07-28 14:52:54,940 INFO: hourly_requests: {'request_count': {0: 57}}
+2025-07-28 14:52:54,955 INFO: hourly_acceptance: {'avg_accept_time': {0: 201.686274}, 'std_accept_time': {0: 106.37020075116497}}
+2025-07-28 14:52:54,966 INFO: hourly_completion: {'avg_ride_duration': {0: 1285.313725}}
+2025-07-28 14:52:55,020 INFO: overall_requests: {'request_count': {0: 25414}}
+2025-07-28 14:52:55,024 INFO: overall_acceptance: {'avg_accept_time': {0: 235.217691}, 'std_accept_time': {0: 126.47143407003533}}
+2025-07-28 14:52:55,024 INFO: overall_completion: {'avg_ride_duration': {0: 1494.428297}}
+2025-07-28 14:52:55,024 INFO: z_request_count components: request_count=57, overall_request_mean=25414.0, overall_request_std=0.001
+2025-07-28 14:52:55,024 INFO: z_accept_time components: current_accept_time=11, avg_accept_time=201.686274, std_accept_time=106.37020075116497
+2025-07-28 14:52:55,025 INFO: Returning stats: {'request_count': {0: 57}, 'avg_accept_time': {0: 201.686274}, 'std_accept_time': {0: 106.37020075116497}, 'avg_ride_duration': {0: 1285.313725}}
+2025-07-28 14:52:55,027 INFO: Computed z-scores: z_request_count=-25357000.0, z_accept_time=-1.7926662980177894
+2025-07-28 14:52:55,029 INFO: Features for prediction: {'distance_km': {0: 9.128730941020164}, 'current_accept_time': {0: 11}, 'request_count': {0: 57}, 'avg_accept_time': {0: 201.686274}, 'avg_ride_duration': {0: 1285.313725}, 'z_request_count': {0: -25357000.0}, 'z_accept_time': {0: -1.7926662980177894}}
+2025-07-28 14:52:55,036 INFO: Predicted price: 64.52
+2025-07-28 14:52:55,037 INFO: 127.0.0.1 - - [28/Jul/2025 14:52:55] "POST /predict_price HTTP/1.1" 200 -
+2025-07-28 14:55:59,737 INFO: Starting Flask application...
+2025-07-28 14:55:59,765 INFO: DB_HOST: 192.168.1.132, DB_PORT: 1433, DB_NAME: Vaye_Analytics_DB, DB_USER: Tkd
+2025-07-28 14:55:59,796 INFO: Database engine created successfully.
+2025-07-28 14:56:00,689 INFO: \u2705 Successfully loaded pricing model.
+2025-07-28 14:56:00,731 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.139:5001
+2025-07-28 14:56:00,731 INFO: [33mPress CTRL+C to quit[0m
+2025-07-28 14:56:00,802 INFO:  * Restarting with watchdog (windowsapi)
+2025-07-28 14:56:01,824 INFO: Starting Flask application...
+2025-07-28 14:56:01,838 INFO: DB_HOST: 192.168.1.132, DB_PORT: 1433, DB_NAME: Vaye_Analytics_DB, DB_USER: Tkd
+2025-07-28 14:56:01,869 INFO: Database engine created successfully.
+2025-07-28 14:56:02,564 INFO: \u2705 Successfully loaded pricing model.
+2025-07-28 14:56:02,579 WARNING:  * Debugger is active!
+2025-07-28 14:56:02,579 INFO:  * Debugger PIN: 299-033-408
+2025-07-28 14:56:24,120 INFO: Starting Flask application...
+2025-07-28 14:56:24,148 INFO: DB_HOST: 192.168.1.132, DB_PORT: 1433, DB_NAME: Vaye_Analytics_DB, DB_USER: Tkd
+2025-07-28 14:56:24,174 INFO: Database engine created successfully.
+2025-07-28 14:56:24,906 INFO: \u2705 Successfully loaded pricing model.
+2025-07-28 14:56:24,949 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.139:5001
+2025-07-28 14:56:24,949 INFO: [33mPress CTRL+C to quit[0m
+2025-07-28 14:56:25,022 INFO:  * Restarting with watchdog (windowsapi)
+2025-07-28 14:56:26,061 INFO: Starting Flask application...
+2025-07-28 14:56:26,085 INFO: DB_HOST: 192.168.1.132, DB_PORT: 1433, DB_NAME: Vaye_Analytics_DB, DB_USER: Tkd
+2025-07-28 14:56:26,112 INFO: Database engine created successfully.
+2025-07-28 14:56:26,818 INFO: \u2705 Successfully loaded pricing model.
+2025-07-28 14:56:26,834 WARNING:  * Debugger is active!
+2025-07-28 14:56:26,839 INFO:  * Debugger PIN: 299-033-408
+2025-07-28 14:57:33,867 INFO: Processing request: {'distance_km': 9.128730941020164, 'current_accept_time': 11, 'matched_at': '2025-07-28T12:57:02.750Z'}
+2025-07-28 14:57:33,867 INFO: Fetching stats for hour_start=2025-07-28 14:00:00, hour_end=2025-07-28 15:00:00
+2025-07-28 14:57:33,973 INFO: hourly_requests: {'request_count': {0: 57}}
+2025-07-28 14:57:33,986 INFO: hourly_acceptance: {'avg_accept_time': {0: 201.686274}, 'std_accept_time': {0: 106.37020075116497}}
+2025-07-28 14:57:34,001 INFO: hourly_completion: {'avg_ride_duration': {0: 1285.313725}}
+2025-07-28 14:57:34,067 INFO: overall_requests: {'request_count': {0: 25415}}
+2025-07-28 14:57:34,067 INFO: overall_acceptance: {'avg_accept_time': {0: 235.208362}, 'std_accept_time': {0: 126.47707223475983}}
+2025-07-28 14:57:34,080 INFO: overall_completion: {'avg_ride_duration': {0: 1494.428297}}
+2025-07-28 14:57:34,080 INFO: z_request_count components: request_count=57, overall_request_mean=25415.0, overall_request_std=0.001
+2025-07-28 14:57:34,080 INFO: z_accept_time components: current_accept_time=11, avg_accept_time=201.686274, std_accept_time=106.37020075116497
+2025-07-28 14:57:34,080 INFO: Returning stats: {'request_count': {0: 57}, 'avg_accept_time': {0: 201.686274}, 'std_accept_time': {0: 106.37020075116497}, 'avg_ride_duration': {0: 1285.313725}}
+2025-07-28 14:57:34,080 INFO: Computed z-scores: z_request_count=-25358000.0, z_accept_time=-1.7926662980177894
+2025-07-28 14:57:34,080 INFO: Features for prediction: {'distance_km': {0: 9.128730941020164}, 'current_accept_time': {0: 11}, 'request_count': {0: 57}, 'avg_accept_time': {0: 201.686274}, 'avg_ride_duration': {0: 1285.313725}, 'z_request_count': {0: -25358000.0}, 'z_accept_time': {0: -1.7926662980177894}}
+2025-07-28 14:57:34,096 INFO: Predicted price: 73.69
+2025-07-28 14:57:34,113 ERROR: Prediction error: Object of type float32 is not JSON serializable
+2025-07-28 14:57:34,113 INFO: 127.0.0.1 - - [28/Jul/2025 14:57:34] "[35m[1mPOST /predict_price HTTP/1.1[0m" 500 -
+2025-07-28 14:59:46,883 INFO:  * Detected change in 'c:\\Users\\Administrator\\Desktop\\LinearRegression\\app.py', reloading
+2025-07-28 14:59:46,883 INFO:  * Detected change in 'c:\\Users\\Administrator\\Desktop\\LinearRegression\\app.py', reloading
+2025-07-28 14:59:46,883 INFO:  * Detected change in 'c:\\Users\\Administrator\\Desktop\\LinearRegression\\app.py', reloading
+2025-07-28 14:59:47,246 INFO:  * Restarting with watchdog (windowsapi)
+2025-07-28 15:00:24,196 INFO: Starting Flask application...
+2025-07-28 15:00:24,218 INFO: DB_HOST: 192.168.1.132, DB_PORT: 1433, DB_NAME: Vaye_Analytics_DB, DB_USER: Tkd
+2025-07-28 15:00:24,250 INFO: Database engine created successfully.
+2025-07-28 15:00:25,275 INFO: \u2705 Successfully loaded pricing model.
+2025-07-28 15:00:25,332 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.139:5001
+2025-07-28 15:00:25,332 INFO: [33mPress CTRL+C to quit[0m
+2025-07-28 15:00:25,404 INFO:  * Restarting with watchdog (windowsapi)
+2025-07-28 15:00:26,469 INFO: Starting Flask application...
+2025-07-28 15:00:26,484 INFO: DB_HOST: 192.168.1.132, DB_PORT: 1433, DB_NAME: Vaye_Analytics_DB, DB_USER: Tkd
+2025-07-28 15:00:26,516 INFO: Database engine created successfully.
+2025-07-28 15:00:27,303 INFO: \u2705 Successfully loaded pricing model.
+2025-07-28 15:00:27,320 WARNING:  * Debugger is active!
+2025-07-28 15:00:27,322 INFO:  * Debugger PIN: 299-033-408
+2025-07-28 15:01:38,048 INFO: Processing request: {'distance_km': 9.128730941020164, 'current_accept_time': 11, 'matched_at': '2025-07-28T13:01:06.937Z'}
+2025-07-28 15:01:38,049 INFO: Fetching stats for hour_start=2025-07-28 15:00:00, hour_end=2025-07-28 16:00:00
+2025-07-28 15:01:38,245 INFO: hourly_requests: {'request_count': {0: 93}}
+2025-07-28 15:01:38,258 INFO: hourly_acceptance: {'avg_accept_time': {0: 312.53409}, 'std_accept_time': {0: 144.04740190945898}}
+2025-07-28 15:01:38,270 INFO: hourly_completion: {'avg_ride_duration': {0: 1487.568181}}
+2025-07-28 15:01:38,326 INFO: overall_requests: {'request_count': {0: 25416}}
+2025-07-28 15:01:38,326 INFO: overall_acceptance: {'avg_accept_time': {0: 235.199034}, 'std_accept_time': {0: 126.48270899102953}}
+2025-07-28 15:01:38,326 INFO: overall_completion: {'avg_ride_duration': {0: 1494.428297}}
+2025-07-28 15:01:38,326 INFO: z_request_count components: request_count=93, overall_request_mean=25416.0, overall_request_std=0.001
+2025-07-28 15:01:38,326 INFO: z_accept_time components: current_accept_time=11, avg_accept_time=312.53409, std_accept_time=144.04740190945898
+2025-07-28 15:01:38,326 INFO: Returning stats: {'request_count': {0: 93}, 'avg_accept_time': {0: 312.53409}, 'std_accept_time': {0: 144.04740190945898}, 'avg_ride_duration': {0: 1487.568181}}
+2025-07-28 15:01:38,326 INFO: Computed z-scores: z_request_count=-25323000.0, z_accept_time=-2.0932976645391306
+2025-07-28 15:01:38,326 INFO: Features for prediction: {'distance_km': {0: 9.128730941020164}, 'current_accept_time': {0: 11.0}, 'request_count': {0: 93}, 'avg_accept_time': {0: 312.53409}, 'avg_ride_duration': {0: 1487.568181}, 'z_request_count': {0: -25323000.0}, 'z_accept_time': {0: -2.0932976645391306}}
+2025-07-28 15:01:38,346 INFO: Predicted price: 116.99
+2025-07-28 15:01:38,346 INFO: 127.0.0.1 - - [28/Jul/2025 15:01:38] "POST /predict_price HTTP/1.1" 200 -
+2025-07-28 15:02:30,132 INFO:  * Detected change in 'c:\\Users\\Administrator\\Desktop\\LinearRegression\\daily_ride_graph.py', reloading
+2025-07-28 15:02:31,171 INFO:  * Restarting with watchdog (windowsapi)
+2025-07-28 15:02:33,247 INFO: Starting Flask application...
+2025-07-28 15:02:33,307 INFO: DB_HOST: 192.168.1.132, DB_PORT: 1433, DB_NAME: Vaye_Analytics_DB, DB_USER: Tkd
+2025-07-28 15:02:33,382 INFO: Database engine created successfully.
+2025-07-28 15:02:34,482 INFO: \u2705 Successfully loaded pricing model.
+2025-07-28 15:02:34,504 WARNING:  * Debugger is active!
+2025-07-28 15:02:34,504 INFO:  * Debugger PIN: 299-033-408
+2025-07-28 15:03:06,975 INFO:  * Detected change in 'c:\\Users\\Administrator\\Desktop\\LinearRegression\\daily_price_graph.py', reloading
+2025-07-28 15:03:07,538 INFO:  * Restarting with watchdog (windowsapi)
+2025-07-28 15:03:10,685 INFO: Starting Flask application...
+2025-07-28 15:03:10,745 INFO: DB_HOST: 192.168.1.132, DB_PORT: 1433, DB_NAME: Vaye_Analytics_DB, DB_USER: Tkd
+2025-07-28 15:03:10,784 INFO: Database engine created successfully.
+2025-07-28 15:03:12,286 INFO: \u2705 Successfully loaded pricing model.
+2025-07-28 15:03:12,307 WARNING:  * Debugger is active!
+2025-07-28 15:03:12,310 INFO:  * Debugger PIN: 299-033-408
+2025-07-28 15:03:22,419 INFO:  * Detected change in 'c:\\Users\\Administrator\\Desktop\\LinearRegression\\daily_price_graph.py', reloading
+2025-07-28 15:03:22,419 INFO:  * Detected change in 'c:\\Users\\Administrator\\Desktop\\LinearRegression\\daily_price_graph.py', reloading
+2025-07-28 15:03:22,420 INFO:  * Detected change in 'c:\\Users\\Administrator\\Desktop\\LinearRegression\\daily_price_graph.py', reloading
